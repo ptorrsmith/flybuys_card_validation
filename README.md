@@ -23,6 +23,19 @@ card_number
 6013111111111111
 ```
 
+The resulting output should look something like the following:
+
+```
+Fly Buys Black: 60141016700078611 (Valid)
+Fly Buys Black: 6014152705006141 (Invalid: ["Invalid checksum"])
+Fly Buys Black: 6014111100033006 (Valid)
+Fly Buys Blue: 6014709045001234 (Valid)
+Fly Buys Red: 6014352700000140 (Valid)
+Fly Buys Green: 6014355526000020 (Valid)
+Fly Buys Green: 6014355529000028 (Invalid: ["Invalid checksum"])
+Unknown: 6013111111111111 (Invalid card type)
+```
+
 ## Initializing your application environment
 
 From your terminal type
